@@ -3,6 +3,9 @@
 % MQ-RBF and MA-RBF Euler's method applied to the IVP: 
 % u'(t) = -u^2, u(0) = 1
 
+addpath('Classical methods for IVP')
+addpath('RBF methods for IVP')
+
 f = @(t,u) -u.^2;
 u_esatta = @(t) 1./(1 + t); 
 a = 0;
