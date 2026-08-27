@@ -3,14 +3,14 @@ function err = RBF_euler(f, u_es, a, b, u0, N, Meth)
 % Usage:    err = RBF_euler(f, u_es, a, b, u0, N)
 % Purpose:  it solves the differential equation u'(t) = f(u(t),t) with
 %           an initial condition u(a) = u0 and computes the global error 
-%           using a RBF Euler's method of the second order
+%           using a RBF Euler method of the second order
 % Input:    f = given function f(t,u) of the problem
 %        u_es = exact solution
 %           a = initial point
 %           b = end point 
 %          u0 = initial value
 %           N = controls the step size h
-%        Meth = RBF Euler's method: '1' MQ-RBF, '2' MA-RBF
+%        Meth = RBF Euler method: '1' MQ-RBF, '2' MA-RBF
 % Output: err = global error at the final point t = b
 %
 h = (b-a)/N;
