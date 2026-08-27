@@ -1,6 +1,6 @@
 % The following script computes and shows the global errors 
-% versus various N and local convergence orders for Euler's method,
-% MQ-RBF and MA-RBF Euler's method applied to the IVP: 
+% versus various N and local convergence orders for Euler method,
+% MQ-RBF and MA-RBF Euler method applied to the IVP: 
 % u'(t) = -u^2, u(0) = 1
 
 addpath('Classical methods for IVP')
