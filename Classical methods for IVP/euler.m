@@ -3,7 +3,7 @@ function err = euler(f, u_es, a, b, u0, N)
 % Usage:    err = euler(f, u_es, a, b, u0, N)
 % Purpose:  it solves the differential equation u'(t) = f(u(t),t) with
 %           an initial condition u(a) = u0 and computes the global error
-%           using the Euler's method
+%           using the Euler method
 % Input:    f = given function f(t,u) of the problem
 %        u_es = exact solution
 %           a = initial point
