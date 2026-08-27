@@ -3,14 +3,14 @@ function err = RBF_midpoint(f, u_es, a, b, u0, N, Meth)
 % Usage:    err = RBF_midpoint(f, u_es, a, b, u0, N, Meth)
 % Purpose:  it solves the differential equation u'(t) = f(u(t),t) with
 %           an initial condition u(a) = u0 and computes the global error
-%           using a RBF Midpoint method of the third order
+%           using a RBF midpoint method of the third order
 % Input:    f = given function f(t,u) of the problem
 %        u_es = exact solution
 %           a = initial point
 %           b = end point 
 %          u0 = initial value
 %           N = controls the step size h
-%        Meth = RBF Midpoint method: '1' MQ-RBF (or equivalently
+%        Meth = RBF midpoint method: '1' MQ-RBF (or equivalently
 %               MA-RBF), '2' GA-RBF 
 % Output: err = global error at the final point t = b
 %
