@@ -1,6 +1,6 @@
 % The following script computes and shows the global errors 
 % versus various N and local convergence orders for the three-step 
-% Adams-Bashforth method and the MQ/MA-RBF and the GA-RBF Midpoint 
+% Adams-Bashforth method and the MQ/MA-RBF and the GA-RBF midpoint 
 % methods applied to the IVP: 
 % u'= (2t^2-u)/(t^2u-t), u(1) = 2
 
