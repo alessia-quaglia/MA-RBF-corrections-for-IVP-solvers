@@ -2,7 +2,7 @@
 % for the developed MA-RBF corrections, with a comparative analysis 
 % against classical methods and their MQ-RBF counterparts.
 
-addpath('Stability region')
+addpath('Stability regions')
 
 % Figure 1(a)
 x = linspace(-3, 3, 400);
