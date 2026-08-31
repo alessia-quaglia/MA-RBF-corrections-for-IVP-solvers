@@ -11,8 +11,7 @@ Adams-Bashforth one-step Adams-Moulton predictor-corrector methods) for solving 
 and computing the absolute error at the final point $t=b$.
 
 *RBF methods for IVP* : contains the modified MQ-RBF and MA-RBF versions of Euler, midpoint, two-step Adams-Bashforth, and Adams-Bashforth-Moulton 
-predictor-corrector formulas. The user can specify which RBF kernel (Multiquadric or Matérn) to use directly through the 
-function's input parameters.
+predictor-corrector formulas. The desired RBF kernel (Multiquadric or Matérn) can be selected via the function's input arguments.
 
 *Stability regions* : contains the functions for plotting the absolute stability regions in the complex plane of the analyzed one-step and multistep 
 methods, comparing the modified RBF versions with classical numerical schemes.
