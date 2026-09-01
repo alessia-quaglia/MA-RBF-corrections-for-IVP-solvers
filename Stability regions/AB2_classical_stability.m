@@ -2,7 +2,7 @@ function AB2_classical_stability()
 %
 % Usage:   AB2_classical_stability
 % Purpose: the function plots the stability region of the 
-%          classic Adams-Bashforth two-step method
+%          classical two-step Adams-Bashforth method
 % Input:   none 
 % Output:  the function does not return variables, it 
 %          produces a contour plot of the stability region 
