@@ -5,6 +5,9 @@
 % corresponding MQ-RBF and MA-RBF modifications applied to the IVP: 
 % u'= -4t^3u^2, u(-10) = 1/10001
 
+addpath('Classical methods for IVP')
+addpath('RBF methods for IVP')
+
 f = @(t,u) -4.*t.^3.*u.^2;
 u_esatta = @(t) 1./(t.^4+1);
 a = -10;
@@ -38,7 +41,7 @@ ord_MAab2am1 = [NaN, log2(err_MAab2am1(1:end-1)./err_MAab2am1(2:end))];
 
 %% Table generation
 met_name1 = {'AB2', 'MQ-RBF AB2', 'MA-RBF AB2'};
-mat_name2 = {'AB2-AM1', 'MQ-RBF AB2-AM1', 'MA-RBF AB2-AM1'};
+met_name2 = {'AB2-AM1', 'MQ-RBF AB2-AM1', 'MA-RBF AB2-AM1'};
 met_err1 = {err_ab2, err_MQab2, err_MAab2};
 met_err2 = {err_ab2am1, err_MQab2am1, err_MAab2am1};
 met_ord1 = {ord_ab2, ord_MQab2, ord_MAab2};
